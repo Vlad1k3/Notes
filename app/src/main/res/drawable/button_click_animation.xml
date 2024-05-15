@@ -1,0 +1,33 @@
+<!-- res/drawable/button_press_animation.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Нажатое состояние кнопки -->
+    <item android:state_pressed="true">
+        <shape android:shape="oval">
+            <solid android:color="#80FFFFFF" />
+            <!-- Необязательно, задаем размеры и отступы для кнопки -->
+            <size
+                android:width="72dp"
+                android:height="72dp" />
+            <padding
+                android:left="8dp"
+                android:top="8dp"
+                android:right="8dp"
+                android:bottom="8dp" />
+        </shape>
+    </item>
+    <!-- Состояние кнопки по умолчанию -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/black" />
+            <!-- Необязательно, задаем размеры и отступы для кнопки -->
+            <size
+                android:width="72dp"
+                android:height="72dp" />
+            <padding
+                android:left="8dp"
+                android:top="8dp"
+                android:right="8dp"
+                android:bottom="8dp" />
+        </shape>
+    </item>
+</selector>

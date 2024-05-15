@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "186895396365",
+    "firebase_url": "https://notes-66516-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "notes-66516",
+    "storage_bucket": "notes-66516.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186895396365:android:f0a6c5bb96b7cae01c6f44",
+        "android_client_info": {
+          "package_name": "com.example.notes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDp9DuR1M6i3sV673eBox_K9YGdC5RNCNg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
