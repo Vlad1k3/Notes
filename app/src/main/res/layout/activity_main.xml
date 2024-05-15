@@ -56,11 +56,11 @@
 
     <ListView
         android:id="@+id/listView"
-        android:layout_width="348dp"
-        android:layout_height="559dp"
+        android:layout_width="339dp"
+        android:layout_height="556dp"
         android:cacheColorHint="#FFFFFF"
-        android:dividerHeight="8dp"
         android:divider="@drawable/divider_black"
+        android:dividerHeight="8dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.49"
@@ -71,7 +71,7 @@
         android:id="@+id/button"
         android:layout_width="202dp"
         android:layout_height="58dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="24dp"
         android:gravity="center"
         android:text="Новая заметка"
         android:textSize="20sp"

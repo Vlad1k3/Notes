@@ -8,8 +8,8 @@
 
     <EditText
         android:id="@+id/noteTitleEditText"
-        android:layout_width="391dp"
-        android:layout_height="71dp"
+        android:layout_width="411dp"
+        android:layout_height="73dp"
         android:layout_marginTop="52dp"
         android:hint="Заголовок"
         android:textColorHint="#999999"
@@ -22,15 +22,15 @@
 
     <EditText
         android:id="@+id/noteContentEditText"
-        android:layout_width="393dp"
-        android:layout_height="565dp"
-        android:layout_marginTop="120dp"
+        android:layout_width="410dp"
+        android:layout_height="560dp"
+        android:layout_marginTop="128dp"
         android:background="#000000"
         android:gravity="top"
         android:hint="Текст"
         android:textColorHint="#999999"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
