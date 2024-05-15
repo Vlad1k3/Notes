@@ -41,6 +41,12 @@ public class CreateNoteActivity extends AppCompatActivity {
                 String title = noteTitleEditText.getText().toString();
                 String content = noteContentEditText.getText().toString();
 
+                // Проверка на пустые поля
+                if (title.isEmpty() || content.isEmpty()) {
+                    Toast.makeText(CreateNoteActivity.this, "Поля не могут быть пустыми", Toast.LENGTH_SHORT).show();
+                    return; // Завершаем метод, чтобы заметка не была сохранена
+                }
+
                 // Сохранение заметки в Firebase
                 databaseRef.child(title).setValue(content)
                         .addOnSuccessListener(aVoid -> {
@@ -52,6 +58,7 @@ public class CreateNoteActivity extends AppCompatActivity {
                         });
             }
         });
+
 
         ImageButton createNoteButton = findViewById(R.id.exitButton);
         createNoteButton.setOnClickListener(new View.OnClickListener() {
