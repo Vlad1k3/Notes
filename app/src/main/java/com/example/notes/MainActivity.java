@@ -102,6 +102,7 @@ public class MainActivity extends AppCompatActivity {
             noNotesTextView.setVisibility(View.GONE);
         }
 
+
         String notesCountText;
         int notesCount = fileNames.size();
         if (notesCount == 1) {
@@ -168,4 +169,3 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 }
-
